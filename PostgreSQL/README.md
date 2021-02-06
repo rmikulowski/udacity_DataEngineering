@@ -10,11 +10,11 @@ Input data should be in the '/data' directory and divided into '/data/log_data' 
 
 Example of the song data when changed to pandas Series using 'pd.read_json(PATH, typ='series')':
 
-![Song Data](images/song_data.PNG)
+![Song Data](images/song_data.png)
 
 Example of the log data when changed to pandas DataFrame using 'pd.read_json(PATH, lines=True)':
 
-![Log Data](images/log_data.PNG)
+![Log Data](images/log_data.png)
 
 
 ### Output of the project and schema of the database
@@ -35,15 +35,15 @@ Data is prepared in the way that should be easily joined together when needed vi
 
 Examples of the data are presented below:
 
-![Songplay Dataset](images/songtime.PNG)
+![Songplay Dataset](images/songtime.png)
     
-![Users Dataset](images/users.PNG)
+![Users Dataset](images/users.png)
 
-![Songs Dataset](images/songs.PNG)
+![Songs Dataset](images/songs.png)
     
-![Artists Dataset](images/artists.PNG)
+![Artists Dataset](images/artists.png)
 
-![Time Dataset](images/time.PNG)
+![Time Dataset](images/time.png)
 
 ## Prerequisites
 Please check the libraries in each of the .py files to find out which libraries should be installed in your venv.
@@ -53,9 +53,10 @@ Firstly, the data needs to be downloaded from Udacity.
 It is not provided in this repo, if cloned.
 
 How the data engineering should be done (from scratch)?
-1. Open the terminal,
-2. Run 'create_tables.py' 
-3. Run 'etl.py'
+
+> 1. Open the terminal,
+> 2. Run 'create_tables.py' 
+> 3. Run 'etl.py'
 
 If the datasets are created, just run etl.py.
 
